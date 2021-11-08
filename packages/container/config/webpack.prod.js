@@ -15,8 +15,8 @@ const prodConfig ={
         new ModuleFedarationPlugin({
             name: 'container',
             remotes:{
-                microFrontEnd1: `microFrontEnd1@${domain}/latest/remoteEntry.js`,
-                microFrontEnd2: `microFrontEnd2@${domain}/latest/remoteEntry2.js`
+                microFrontEnd1: `microFrontEnd1@${domain}/microFrontEnd1/latest/remoteEntry.js`,
+                microFrontEnd2: `microFrontEnd2@${domain}/microFrontEnd1/latest/remoteEntry2.js`
             },
             shared: packageJson.dependencies
         })
