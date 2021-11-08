@@ -11,9 +11,8 @@ default:
   run:
     working-directory: packages/container
 
+
 jobs:
-  build:
-    jobs:
   build: 
     runs-on: ubuntu-18.04
 
