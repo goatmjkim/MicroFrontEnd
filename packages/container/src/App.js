@@ -11,7 +11,9 @@ function App() {
     return (
         <Router>
             <Switch>
+                <Route exact path={`/`}>
                     <Dashboard />
+                 </Route>
             </Switch>
         </Router>
     );
