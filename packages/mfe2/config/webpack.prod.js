@@ -15,12 +15,9 @@ const prodConfig ={
             name: 'mfe2',
             filename: 'remoteEntry2.js',
             exposes:{
-                './MircoFrontEnd2Index': './src/routes'
+                './MicroFrontEnd2Index': './src/routes'
             },
             shared: packageJson.dependencies,
-        }),
-        new HtmlWebpackPlugin({
-            template: './public/index.html'
         }),
     ],
 };
