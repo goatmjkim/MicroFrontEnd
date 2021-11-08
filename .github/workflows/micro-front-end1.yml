@@ -7,13 +7,12 @@ on:
     paths:
       - 'packages/micro-front-end1/**'
 
-default:
+defaults:
   run:
     working-directory: packages/micro-front-end1
 
+
 jobs:
-  build:
-    jobs:
   build: 
     runs-on: ubuntu-18.04
 
