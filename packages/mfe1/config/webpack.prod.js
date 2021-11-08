@@ -11,7 +11,7 @@ const prodConfig ={
     },
     plugins:[
         new ModuleFedarationPlugin({
-            name: 'microFrontEnd1',
+            name: 'mfe1',
             filename: 'remoteEntry.js',
             exposes:{
                 './MircoFrontEnd1Index': './src/routes'

@@ -17,8 +17,8 @@ const devConfig ={
         new ModuleFederationPlugin({
             name: 'container',
             remotes:{
-                microFrontEnd1: 'microFrontEnd1@http://localhost:8081/remoteEntry.js',
-                microFrontEnd2: 'microFrontEnd2@http://localhost:8082/remoteEntry2.js'
+                mfe1: 'mfe1@http://localhost:8081/remoteEntry.js',
+                mfe2: 'mfe2@http://localhost:8082/remoteEntry2.js'
 
             },
             shared: packageJson.dependencies,
