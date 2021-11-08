@@ -14,9 +14,9 @@ const devConfig ={
     plugins: [
         new ModuleFederationPlugin({
             name: 'mfe2',
-            filename: 'mfe2.js',
+            filename: 'remoteEntry2.js',
             exposes:{
-                './MircoFrontEnd2Index': './src/routes',
+                './MicroFrontEnd2Index': './src/routes',
             },
             shared: packageJson.dependencies,
         }),

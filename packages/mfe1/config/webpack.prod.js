@@ -14,7 +14,7 @@ const prodConfig ={
             name: 'mfe1',
             filename: 'remoteEntry.js',
             exposes:{
-                './MircoFrontEnd1Index': './src/routes'
+                './MicroFrontEnd1Index': './src/routes'
             },
             shared: packageJson.dependencies,
         }),
