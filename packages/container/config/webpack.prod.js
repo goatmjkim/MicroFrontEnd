@@ -16,7 +16,7 @@ const prodConfig ={
             name: 'container',
             remotes:{
                 microFrontEnd1: `microFrontEnd1@${domain}/microFrontEnd1/latest/remoteEntry.js`,
-                microFrontEnd2: `microFrontEnd2@${domain}/microFrontEnd1/latest/remoteEntry2.js`
+                microFrontEnd2: `microFrontEnd2@${domain}/microFrontEnd2/latest/remoteEntry2.js`
             },
             shared: packageJson.dependencies
         })
