@@ -5,11 +5,11 @@ on:
     banches:
       - master
     paths:
-      - 'MicroFrontEnd/micro-front-end1/**'
+      - 'packages/micro-front-end1/**'
 
 default:
   run:
-    working-directory: MicroFrontEnd/micro-front-end1
+    working-directory: packages/micro-front-end1
 
 jobs:
   build:
