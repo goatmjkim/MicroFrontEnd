@@ -7,7 +7,7 @@ const prodConfig ={
     mode: 'production',
     output: {
         filename: '[name].[contenthash].js',
-        publicPath: '/microFrontEnd1/latest/',
+        publicPath: '/mfe1/latest/',
     },
     plugins:[
         new ModuleFedarationPlugin({
