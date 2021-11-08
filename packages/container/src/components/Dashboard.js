@@ -86,6 +86,7 @@ function DashboardContent() {
   };
 
   return (
+    <Router>
     <ThemeProvider theme={mdTheme}>
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
@@ -222,6 +223,7 @@ function DashboardContent() {
         </Box>
       </Box>
     </ThemeProvider>
+    </Router>
   );
 }
 
