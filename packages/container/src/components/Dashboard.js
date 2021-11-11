@@ -28,8 +28,8 @@ import tv from '../image/uplusTV.png';
 import AsyncLoader from "../AsyncLoader";
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const Front1 = React.lazy(() => import('mfe1/MicroFrontEnd1Index'));
-const Front2 = React.lazy(() => import('mfe2/MicroFrontEnd2Index'));
+const Front2 = React.lazy(() => import('mfe1/MicroFrontEnd1Index'));
+const Front1 = React.lazy(() => import('mfe2/MicroFrontEnd2Index'));
 
 const drawerWidth = 240;
 
