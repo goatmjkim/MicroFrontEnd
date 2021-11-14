@@ -201,7 +201,7 @@ function DashboardContent() {
                 <Paper>
                   <Suspense fallback="Loading Front1...">
                                 <AsyncLoader>
-                                    <Front2/>
+                                    <Front1/>
                                 </AsyncLoader>
                   </Suspense>
                 </Paper>
@@ -211,7 +211,7 @@ function DashboardContent() {
                 <Paper>
                   <Suspense fallback="Loading Front2...">
                                 <AsyncLoader>
-                                    <Front1/>
+                                    <Front2/>
                                 </AsyncLoader>
                   </Suspense>
 
